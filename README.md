@@ -6,7 +6,7 @@ This project is an data analysis and prediction (based mostly on weather data) a
 The first three notebooks plus the merging notebook are about cleaning/merging each dataset for EDA and prediction purposes. Finally i merged two datasets: one for the EDA in which all trips are included and one for the predictive modeling where i aggregated all trips for each day because i only had weather data for any whole day - not for each hour that day.
 
 **EDA Notebook**
-Than there is the final EDA notebook. Here you will find the detailed analysis of the user behaviour. The locations each user-group uses the most, at what times (hour, day, month) they are the most active, 
+Than there is the final EDA notebook. Here you will find the detailed analysis of the user behaviour. The locations each user-group uses the most, at what times (hour, day, month) they are the most active, etc. 
 
 **Predictive Modeling Notebooks**
 Following are the notebooks with predicitive models, one model each. The XGBoost Regressor had the best results of all. I even tried one classification model for fun, which can predict if a given ride was done by a member or a daypass user. So if we wouldnt have that information in the beginning we could have predicted that with 75% accuracy.
